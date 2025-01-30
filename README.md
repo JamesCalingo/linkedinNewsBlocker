@@ -1,2 +1,3 @@
 # linkedinNewsBlocker
-Don't show me the news please.
+A browser extension that hides the LinkedIn News feed on the main page.
+
