@@ -4,7 +4,7 @@ A browser extension that hides the LinkedIn News feed on the main page.
 # Why do this?
 I realize that it's important to be informed on what is going on - politically, economically, and globally. However, I find that seeing headlines that make me feel a certain way (for lack of a better term) distract me from being able to focus on why I'm on LinkedIn: building connections and working on getting a job/building a career. 
 
-This was also my way of learning how to make a browser extension, and to my surprise, this ended up being super light and easy - a total of 32 lines of code split between the actual script and a manifest file.
+This was also my way of learning how to make a browser extension, and to my surprise, this ended up being super light and easy - a total of 33 lines of code split between the actual script and a manifest file.
 
 # How to install
 
