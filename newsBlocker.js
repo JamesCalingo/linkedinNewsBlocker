@@ -1,7 +1,7 @@
 function addObserver(callback) {
     const options = {
         attributes: true,
-        childList: true,
+        childList: false,
         subtree: true,
     }
     const observer = new MutationObserver(callback)
@@ -11,11 +11,12 @@ function addObserver(callback) {
 
 function removeNews() {
     if (window.location.href.startsWith("https://www.linkedin.com")) {
-        const aside = document.querySelector(".scaffold-layout__aside")
-        if (aside) {
-            aside.remove()
+        const news = document.querySelector("#feed-news-module")
+        if (news) {
+            news.remove()
         }
     }
 }
 
 addObserver(removeNews)
+removeNews()
